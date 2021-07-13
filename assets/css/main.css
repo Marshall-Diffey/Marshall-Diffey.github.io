@@ -3911,9 +3911,25 @@ input, select, textarea {
 
 
 /* Added */
-.skillLogo {
-	max-width: 20%;
-	max-height: 100%;
-	height: 100%;
-	width: 10%;
+@media screen and (min-width: 1281px) {
+	#skillLogo {
+		height: 64px;
+		width: 16%;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	#skillLogo {
+		height: 42px;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	#skillLogo {
+		height: 32px;
+	}
+}
+
+.skillContainer {
+	height: 20%;
 }
