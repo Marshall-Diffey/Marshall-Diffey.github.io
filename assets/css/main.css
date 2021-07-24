@@ -3933,3 +3933,24 @@ input, select, textarea {
 .skillContainer {
 	height: 20%;
 }
+
+.commonwealth {
+	object-fit: contain;
+}
+
+.features {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.projectBorderDiv {
+ 	border-top: 1px solid rgb(255, 255, 255, 0.2);
+	height: 1px;
+	width: 100%;
+}
+
+.projectImageDiv {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
