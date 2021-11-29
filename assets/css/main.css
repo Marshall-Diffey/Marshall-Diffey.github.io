@@ -3939,6 +3939,7 @@ input, select, textarea {
 	object-fit: contain;
 }
 
+
 .features {
 	display: flex;
 	justify-content: center;
@@ -3949,6 +3950,14 @@ input, select, textarea {
 	border-top: 1px solid rgb(255, 255, 255, 0.2);
 	height: 1px;
 	width: 100%;
+}
+
+.projectHeader {
+	margin-left: 20px;
+}
+
+.projectParagraph {
+	margin: 0px 20px 80px;
 }
 
 .projectImage {
