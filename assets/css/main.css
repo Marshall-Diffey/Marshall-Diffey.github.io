@@ -3952,22 +3952,29 @@ input, select, textarea {
 	width: 100%;
 }
 
-.projectHeader {
-	margin-left: 20px;
+.projectDescriptionDiv {
+	width: 95%;
 }
 
-.projectParagraph {
-	margin: 0px 20px 80px;
+.projectHeader {
+	margin: 0px 20px 0px;
 }
 
 .projectImage {
 	object-fit: contain;
 	width: 100%;
 }
+.projectImage:hover {
+	cursor: pointer;
+}
 
 .projectImageDiv {
 	margin-bottom: 1em;
 	margin-top: 1em;
+}
+
+.projectParagraph {
+	margin: 0px 20px 80px;
 }
 
 @media screen and (max-width: 1465px) {
