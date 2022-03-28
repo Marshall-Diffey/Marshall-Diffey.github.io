@@ -3964,6 +3964,9 @@ input, select, textarea {
 	object-fit: contain;
 	width: 100%;
 }
+.projectImage:hover {
+	cursor: pointer;
+}
 
 .projectImageDiv {
 	margin-bottom: 1em;
